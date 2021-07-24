@@ -75,15 +75,24 @@ div.circle-yellow {
    height: 25px;
    width: 25px;
    border-radius: 12.5px;
-   position: absolute;
-   margin: 10px;
+   margin-top: 10px;
+   margin-left: 15px;
 }
 
 .navbar-text {
-   display: flex;
-   margin-top: 0.8%;
-   margin-right: 2%;
-   float: right;
+   align-self: center;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+li {
+   float: left;
+   display: block;
 }
 
 .verticle-line {
@@ -118,6 +127,7 @@ div.circle-yellow {
    text-align: center;
    align-content: center;
    justify-content: center;
+   cursor: pointer;
 }
 
 .circle-text {
@@ -129,4 +139,23 @@ div.circle-yellow {
    box-shadow: 0px 0px rgba(255, 255, 255, 0.352);
    border-width: 0px;
    font-size: 18px;
+}
+
+.footer-content {
+   position: relative;
+   margin-top: 30px;
+}
+
+.footer-content-header {
+   font-size: 25px;
+   font-weight: bold;
+   text-justify: kashida;
+}
+
+.footer-content-body {
+   font-size: 20px;
+}
+
+a {
+   color: white;
 }
