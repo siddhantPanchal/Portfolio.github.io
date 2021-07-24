@@ -7,36 +7,74 @@
       <title>Portfolio</title>
    </head>
    <link rel="stylesheet" href="style.css" />
-
+   <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+   />
    <body>
       <header
          class="left_to_right_animation"
          style="margin: 1%; margin-left: 2%"
       >
-         <div class="box-shadow" style="height: 50px">
-            <div class="circle-yellow"></div>
-            <div style="margin-left: 40px; position: absolute; height: inherit">
-               <h2 style="position: absolute; margin-top: 10px; width: 190px">
-                  Siddhant Panchal
-               </h2>
-               <div
+         <div
+            class="box-shadow"
+            style="
+               height: 50px;
+               display: flex;
+               align-content: center;
+               justify-content: space-between;
+            "
+         >
+            <ul>
+               <li>
+                  <div class="circle-yellow"></div>
+               </li>
+
+               <li>
+                  <h2 style="margin-top: 10px; margin-left: 15px">
+                     Siddhant Panchal
+                  </h2>
+               </li>
+
+               <li style="margin-top: 18px; margin-left: 15px">
+                  Software Engineer
+               </li>
+            </ul>
+
+            <div
+               style="
+                  margin-right: 3%;
+                  display: flex;
+                  align-self: center;
+                  justify-self: center;
+                  float: left;
+                  width: 20%;
+               "
+            >
+               <ul
                   style="
-                     position: absolute;
-                     margin-left: 190px;
-                     margin-top: 18px;
-                     width: 190px;
+                     display: flex;
+                     justify-content: space-between;
+                     align-content: space-between;
+                     width: 100%;
                   "
                >
-                  Software Engineer
-               </div>
-            </div>
-
-            <div style="margin-right: 3%">
-               <div class="navbar-text">Contact</div>
-               <div class="verticle-line"></div>
-               <div class="navbar-text">Resume</div>
-               <div class="verticle-line"></div>
-               <div class="navbar-text">Project</div>
+                  <li>
+                     <div class="navbar-text">Project</div>
+                  </li>
+                  <li>
+                     <div class="verticle-line"></div>
+                  </li>
+                  <li>
+                     <div class="navbar-text">Resume</div>
+                  </li>
+                  <li>
+                     <div class="verticle-line"></div>
+                  </li>
+                  <li>
+                     <div class="navbar-text">Contact</div>
+                  </li>
+               </ul>
             </div>
          </div>
       </header>
@@ -117,7 +155,39 @@
             bottom: 3%;
             background-color: rgba(0, 0, 0, 0.4);
          "
-      ></footer>
+      >
+         <div
+            style="
+               display: flex;
+               justify-content: space-evenly;
+               align-content: space-between;
+            "
+         >
+            <div class="footer-content">
+               <div class="footer-content-header">Phone</div>
+
+               <div class="footer-content-body">+91 98343 35299</div>
+            </div>
+
+            <div class="footer-content">
+               <div class="footer-content-header">Email</div>
+               <div class="footer-content-body">
+                  siddhantpanchal430@gmail.com
+               </div>
+            </div>
+            <div class="footer-content footer-content-header">
+               Follow me
+               <div class="footer-content-body">
+                  <a href="https://www.instagram.com/sidd__p/?hl=en">
+                     <em class="fa fa-instagram"></em>
+                  </a>
+               </div>
+            </div>
+            <div class="footer-content footer-content-body">
+               @2021 by Siddhant Panchal
+            </div>
+         </div>
+      </footer>
       <script src="index.js"></script>
    </body>
 </html>
